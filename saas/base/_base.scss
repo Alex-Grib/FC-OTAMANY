@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Боди */
+
+body {
+  background-color: gray;
+  color: $title-text-color;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* убирает точки и подчеркивания в списках и ссылках*/
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  display: block;
+}
