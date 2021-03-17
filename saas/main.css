@@ -21,7 +21,7 @@ img {
 
 /* Боди */
 body {
-  background-color: #ffffff;
+  background-color: gray;
   color: #212121;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -176,7 +176,7 @@ body {
           transform: translate(-85%, -270%);
   font-size: 12px;
   line-height: 1.17;
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .backdrop-input:focus,
@@ -186,13 +186,13 @@ body {
 .backdrop-input:not(:placeholder-shown),
 .textarea-comment:not(:placeholder-shown) {
   outline: none;
-  border-color: #2196f3;
+  border-color: #ffd900;
 }
 
 .backdrop-input:hover ~ .input-svg,
 .backdrop-input:focus ~ .input-svg,
 .backdrop-input:not(:placeholder-shown) ~ .input-svg {
-  fill: #2196f3;
+  fill: #ffd900;
 }
 
 .input-svg {
@@ -247,7 +247,7 @@ body {
 .textarea-comment:not(:placeholder-shown) + .textarea-text {
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
-  color: #2196f3;
+  color: #ffd900;
   font-size: 12px;
   line-height: 1.17;
 }
@@ -275,7 +275,7 @@ body {
 .policy-checkbox:checked + .checkbox-icon {
   background-image: url(../images/modal/checkbox-svg.svg);
   border: none;
-  background-color: #2196f3;
+  background-color: #ffd900;
   border-radius: 4px;
   background-position: center;
   background-origin: content-box;
@@ -311,7 +311,7 @@ body {
   letter-spacing: 0.03em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .button-modal-push {
@@ -325,7 +325,7 @@ body {
   letter-spacing: 0.06em;
   border: none;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: #ffd900;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
@@ -333,7 +333,7 @@ body {
 .button-modal-push:hover,
 .button-modal-push:focus {
   background-color: #ffffff;
-  color: #2196f3;
+  color: #ffd900;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -402,7 +402,7 @@ body {
 }
 
 .logo-web {
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .logo-studio {
@@ -420,7 +420,7 @@ body {
 }
 
 .nav-list-link:hover, .nav-list-link:focus {
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .address-list {
@@ -445,7 +445,7 @@ body {
 }
 
 .address-list:hover, .address-list:focus {
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .address-list .address-list-svg {
@@ -459,11 +459,11 @@ body {
 }
 
 .address-list:hover .address-list-svg {
-  fill: #2196f3;
+  fill: #ffd900;
 }
 
 .address-list:focus .address-list-svg {
-  fill: #2196f3;
+  fill: #ffd900;
 }
 
 @media screen and (max-width: 767px) {
@@ -490,11 +490,11 @@ body {
   }
   .menu-btn:focus,
   .menu-btn:hover .icon-open {
-    fill: #2196f3;
+    fill: #ffd900;
   }
   .menu-btn:focus,
   .menu-btn:hover .icon-close {
-    fill: #2196f3;
+    fill: #ffd900;
   }
   .menu-wrapper {
     display: none;
@@ -626,8 +626,8 @@ body {
 
 .hero {
   min-height: 400px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/hero-img/hero-mobile.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-img/hero-mobile.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/OtamanyHero.jpeg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/OtamanyHero.jpeg);
   background-color: #2f303a;
   margin-right: auto;
   margin-left: auto;
@@ -656,29 +656,29 @@ body {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-width: 320px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/hero-img/hero-mobile@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-img/hero-mobile@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/OtamanyHero.jpeg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/OtamanyHero.jpeg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/hero-img/hero-tablet.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-img/hero-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/OtamanyHero.jpeg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/OtamanyHero.jpeg);
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-width: 768px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/hero-img/hero-tablet@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-img/hero-tablet@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/OtamanyHero.jpeg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/OtamanyHero.jpeg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/hero-img/desktop.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-img/desktop.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/OtamanyHero.jpeg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/OtamanyHero.jpeg);
   }
   .hero-tittle {
     font-size: 44px;
@@ -690,8 +690,8 @@ body {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-width: 1200px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/hero-img/desktop@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-img/desktop@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/OtamanyHero.jpeg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/OtamanyHero.jpeg);
   }
 }
 
@@ -895,7 +895,7 @@ body {
 }
 
 .team-link:hover, .team-link:focus {
-  background-color: #2196f3;
+  background-color: #ffd900;
 }
 
 .team-link .team-link-icon {
@@ -980,7 +980,7 @@ body {
 }
 
 .client-logo:hover {
-  border-color: #2196f3;
+  border-color: #ffd900;
 }
 
 .client-logo .client-logo-svg {
@@ -993,11 +993,11 @@ body {
 }
 
 .client-logo:hover .client-logo-svg {
-  fill: #2196f3;
+  fill: #ffd900;
 }
 
 .client-logo:focus .client-logo-svg {
-  fill: #2196f3;
+  fill: #ffd900;
 }
 
 @media screen and (max-width: 767px) {
@@ -1130,6 +1130,184 @@ body {
   display: inline-block;
   margin-top: 20px;
   padding-bottom: 9px;
+  color: #ffd900;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+}
+
+.address-map:hover, .address-map:focus {
+  color: #ffd900;
+}
+
+.address-info {
+  display: inline-block;
+  color: #ffd900;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+}
+
+.address-info:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.address-info:hover, .address-info:focus {
+  color: #ffd900;
+}
+
+.sign-up {
+  display: block;
+  margin-bottom: 20px;
+  color: #ffd900;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.subscription {
+  text-align: center;
+}
+
+.footer-form {
+  text-align: center;
+}
+
+.footer-input-email {
+  padding: 18px 12px;
+  margin-bottom: 20px;
+  height: 50px;
+  min-width: 100%;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffd900;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.footer-input-email:focus {
+  outline: none;
+}
+
+.btn-footer {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin: 0;
+  padding: 10px 29px;
+  border-radius: 4px;
+  background-color: black;
+  color: #ffd900;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  overflow: hidden;
+}
+
+.btn-footer:hover, .btn-footer:focus {
+  background-color: #ffffff;
+  color: #ffd900;
+}
+
+.btn-footer::before, .btn-footer::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-size: contain;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+}
+
+.btn-footer::after {
+  background-image: url(../images/telegram-svg/telegram-svg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn-footer:hover::after {
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+}
+
+.btn-footer::before {
+  position: absolute;
+  right: 0;
+  margin-right: 28px;
+  background-image: url(../images/what-are-we-doing/telegram-svg.svg);
+  -webkit-transform: translateY(35px);
+          transform: translateY(35px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn-footer:hover::before, .btn-footer:focus::before {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+@media screen and (min-width: 768px) {
+  .footer-input-email {
+    min-width: 450px;
+  }
+  .footer-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer-input-email {
+    min-width: 358px;
+    margin-right: 5px;
+  }
+}
+
+.address-map {
+  display: inline-block;
+  margin-top: 20px;
+  padding-bottom: 9px;
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
@@ -1140,7 +1318,7 @@ body {
 }
 
 .address-map:hover, .address-map:focus {
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .address-info {
@@ -1159,7 +1337,7 @@ body {
 }
 
 .address-info:hover, .address-info:focus {
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .sign-up {
@@ -1214,7 +1392,7 @@ body {
   margin: 0;
   padding: 10px 29px;
   border-radius: 4px;
-  background-color: #2196f3;
+  background-color: #ffd900;
   color: #ffffff;
   font-weight: bold;
   font-size: 16px;
@@ -1227,7 +1405,7 @@ body {
 
 .btn-footer:hover, .btn-footer:focus {
   background-color: #ffffff;
-  color: #2196f3;
+  color: #ffd900;
 }
 
 .btn-footer::before, .btn-footer::after {
@@ -1325,7 +1503,7 @@ body {
 }
 
 .logo-social:hover, .logo-social:focus {
-  background-color: #2196f3;
+  background-color: #ffd900;
 }
 
 .logo-social-icon {
@@ -1349,15 +1527,15 @@ body {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 3;
   border: none;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: black;
+  background-color: #ffd900;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
 
 .button:hover, .button:focus {
-  background-color: #ffffff;
-  color: #2196f3;
+  background-color: black;
+  color: #ffd900;
 }
 
 .project {
@@ -1444,8 +1622,8 @@ body {
   line-height: 1.56;
   width: 100%;
   height: 100%;
-  background-color: rgba(33, 150, 243, 0.9);
-  color: #ffffff;
+  background-color: rgba(231, 247, 15, 0.9);
+  color: black;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
@@ -1530,7 +1708,7 @@ body {
 }
 
 .button-portfolio:focus, .button-portfolio:hover {
-  background-color: #2196f3;
+  background-color: #ffd900;
   color: #ffffff;
   cursor: pointer;
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
